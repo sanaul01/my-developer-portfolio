@@ -14,6 +14,7 @@ body{
     border: 0;
     color: white;
     padding: 15px 35px;
+    margin-right: 15px;
     
 }
 
@@ -22,6 +23,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 30px 0px 150px;
 }
 
 .nav-title{
@@ -50,15 +52,40 @@ nav a{
 
 .header{
     background-color: #FFF8F3;
-    padding: 30px 30px 30px 150px;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 450px;
 }
 
 .banner{
-    
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
 }
 
 .banner .profile-picture{
     width: 300px;
+    
+}
+
+
+.banner-greeting{
+    font-size: 45px;
+    margin-bottom: 0px;
+    color: #474747;
+}
+
+.banner-title{
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.banner-description{
+    margin-bottom: 15px;
+    width: 500px;
 }
