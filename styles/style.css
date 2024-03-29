@@ -31,6 +31,10 @@ body{
     margin-bottom: 10px;
 }
 
+main section{
+    margin-top: 130px;
+}
+
 /* navbar style */
 nav{
     display: flex;
@@ -136,6 +140,30 @@ main{
     margin-bottom: 0px;
 }
 
+/* What is do sections */
+
 .about-info-description{
-    margin-top: 4px;
+    margin-top:4px;
 }
+
+#about-info-description{
+    padding: 30px 150px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-description{
+    color: #757575;
+}
+
+/* Resume sections */
